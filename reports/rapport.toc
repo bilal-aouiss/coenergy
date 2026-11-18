@@ -1,0 +1,33 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction et objectif scientifique}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Un problème inverse de caractérisation thermique}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Données et analyse exploratoire}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Composition et qualité des simulations}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Nature et diversité des sollicitations}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Prétraitement et définition des entrées}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Deux représentations d'une même simulation}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Normalisation calculée sur le train}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Cinq paramètres indépendants et contrainte physique}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}La campagne préliminaire sur 500\,000 simulations}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Rôle des essais préliminaires}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Ce que j'ai retenu des premiers essais}{6}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Architectures étudiées et fondements bibliographiques}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Du MLP au CNN--GRU et à la fusion}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Pourquoi j'ai utilisé SiLU et AdamW}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Découverte et fonctionnement du TCN}{7}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Intérêt et limites du choix TCN}{7}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Protocole de la campagne finale}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Entraînement et évaluation}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Indicateurs de performance et cohérence des comparaisons}{9}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Résultats finaux sur un million de simulations}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Comparaison sur le test principal}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Précision en unités physiques et réserve U}{10}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Expérience de pondération renforcée : \emph {Weighted Loss}}{10}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Pourquoi j'ai essayé la pondération 30/70}{10}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Ce que j'ai obtenu}{10}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Comment j'interprète cet échec}{10}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Pourquoi les constantes de temps restent-elles difficiles à estimer ?}{11}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Sensibilité temporelle et excitation disponible}{11}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Contraction des prédictions vers les valeurs centrales}{11}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Variabilité, corrélations et limites des données simulées}{11}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Discussion générale et conclusion}{11}{section.10}%

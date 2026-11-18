@@ -1,0 +1,173 @@
+{
+  "rows": 1000000,
+  "sequence_shape": [
+    1000000,
+    2,
+    480
+  ],
+  "feature_shape": [
+    1000000,
+    59
+  ],
+  "target_shape": [
+    1000000,
+    6
+  ],
+  "dtype": "float32",
+  "channel_order": [
+    "T",
+    "U"
+  ],
+  "target_names": [
+    "HLC",
+    "HLCext",
+    "HLCmit",
+    "tau_b",
+    "tau_n",
+    "tau_inf"
+  ],
+  "feature_names": [
+    "T_initial",
+    "T_final",
+    "T_mean",
+    "T_std",
+    "T_min",
+    "T_max",
+    "T_total_variation",
+    "dT_std",
+    "dT_min",
+    "dT_max",
+    "T_rising_fraction",
+    "U_initial",
+    "U_final",
+    "U_mean",
+    "U_std",
+    "U_min",
+    "U_max",
+    "U_active_fraction",
+    "U_switches",
+    "U_on_switches",
+    "U_off_switches",
+    "U_on_run_mean",
+    "U_on_run_max",
+    "U_off_run_mean",
+    "U_off_run_max",
+    "U_first_active_index_fraction",
+    "U_last_active_index_fraction",
+    "segment_0_T_mean",
+    "segment_0_T_change",
+    "segment_0_U_mean",
+    "segment_0_U_active_fraction",
+    "segment_1_T_mean",
+    "segment_1_T_change",
+    "segment_1_U_mean",
+    "segment_1_U_active_fraction",
+    "segment_2_T_mean",
+    "segment_2_T_change",
+    "segment_2_U_mean",
+    "segment_2_U_active_fraction",
+    "segment_3_T_mean",
+    "segment_3_T_change",
+    "segment_3_U_mean",
+    "segment_3_U_active_fraction",
+    "segment_4_T_mean",
+    "segment_4_T_change",
+    "segment_4_U_mean",
+    "segment_4_U_active_fraction",
+    "segment_5_T_mean",
+    "segment_5_T_change",
+    "segment_5_U_mean",
+    "segment_5_U_active_fraction",
+    "segment_6_T_mean",
+    "segment_6_T_change",
+    "segment_6_U_mean",
+    "segment_6_U_active_fraction",
+    "segment_7_T_mean",
+    "segment_7_T_change",
+    "segment_7_U_mean",
+    "segment_7_U_active_fraction"
+  ],
+  "split_sha256": "ab0c0383bc6e976a1b878ca10572c32a1a80ea2a0fc37f93256ab91f81bb5381",
+  "source_batches": [
+    {
+      "file": "batch_1.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_2.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_3.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_4.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_5.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_6.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_7.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_8.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_9.pt",
+      "size_bytes": 195602632
+    },
+    {
+      "file": "batch_10.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_11.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_12.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_13.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_14.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_15.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_16.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_17.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_18.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_19.pt",
+      "size_bytes": 195602962
+    },
+    {
+      "file": "batch_20.pt",
+      "size_bytes": 195602962
+    }
+  ]
+}

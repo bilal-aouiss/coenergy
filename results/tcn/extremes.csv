@@ -1,0 +1,9 @@
+partition,target,region,n,RMSE,bias
+test,tau_b,5 % faibles,4447,14.787379,14.381583
+test,tau_b,5 % élevés,4446,22.6359,-21.611675
+test,tau_inf,5 % faibles,4475,10.834752,10.575622
+test,tau_inf,5 % élevés,4399,17.782637,-16.96754
+reserve_u,tau_b,5 % faibles,5055,14.786885,14.350773
+reserve_u,tau_b,5 % élevés,5095,22.798332,-21.77887
+reserve_u,tau_inf,5 % faibles,4987,10.888057,10.618521
+reserve_u,tau_inf,5 % élevés,5094,17.835878,-17.03703

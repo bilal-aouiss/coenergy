@@ -1,0 +1,19 @@
+{
+  "kind": "fusion_30_70",
+  "run_id": "run_001",
+  "seed": 2026,
+  "batch_size": 1024,
+  "max_epochs": 120,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 2.0,
+  "lr_patience": 6,
+  "lr_factor": 0.5,
+  "early_patience": 18,
+  "min_delta": 1e-05,
+  "hlc_weight": 0.3,
+  "tau_weight": 0.7,
+  "dropout": 0.1,
+  "print_every": 100,
+  "archive_every": 10
+}

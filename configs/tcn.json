@@ -1,0 +1,19 @@
+{
+  "kind": "tcn",
+  "run_id": "run_001",
+  "seed": 2026,
+  "batch_size": 512,
+  "max_epochs": 120,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "lr_patience": 8,
+  "lr_factor": 0.5,
+  "early_patience": 22,
+  "min_delta": 0.0001,
+  "hlc_weight": 0.5,
+  "tau_weight": 0.5,
+  "dropout": 0.05,
+  "print_every": 100,
+  "archive_every": 10
+}

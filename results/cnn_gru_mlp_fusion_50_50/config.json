@@ -1,0 +1,32 @@
+{
+  "kind": "fusion_50_50",
+  "run_id": "run_001",
+  "seed": 2026,
+  "batch_size": 1024,
+  "max_epochs": 120,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 2.0,
+  "lr_patience": 6,
+  "lr_factor": 0.5,
+  "early_patience": 18,
+  "min_delta": 1e-05,
+  "hlc_weight": 0.5,
+  "tau_weight": 0.5,
+  "dropout": 0.1,
+  "print_every": 100,
+  "archive_every": 10,
+  "fingerprints": {
+    "partitions_sha256": "ab0c0383bc6e976a1b878ca10572c32a1a80ea2a0fc37f93256ab91f81bb5381",
+    "preprocessing_sha256": "f3cc35a4266e93932076b3242fe8aea60ff44aeca419878059a68f6189c1bf50",
+    "cache_manifest_sha256": "f6434e33e693750e2318d1148c77a21c19be00230646b646a14d783b24b5e11a"
+  },
+  "partition_sizes": {
+    "train": 719885,
+    "validation": 89985,
+    "test": 89987,
+    "reserve_u": 100143
+  },
+  "n_features": 58,
+  "n_parameters": 56357
+}

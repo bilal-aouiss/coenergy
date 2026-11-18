@@ -1,0 +1,39 @@
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Données volumineuses
+quentin_house/
+data/prepared/*.npy
+results/**/predictions/
+
+# Checkpoints et archives de runs
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Conserver le paquet Kaggle
+!coenergy_modules_kaggle.zip
+
+# Fichiers temporaires LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Secrets
+.env
+.env.*
+# Documents non destinés au dépôt
+/Assessment_de_stage___coEnergy.pdf
+/ssrn-6928008.pdf
+
+# Tests
+/tests/
+
+*.egg-info/
